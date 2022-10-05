@@ -9,9 +9,9 @@ func SorthWithBubble(numbers []int) []int {
 	for step := 0; step < len(numbers)-1; step++ {
 		for i := 0; i < len(numbers)-step-1; i++ {
 			if numbers[i] > numbers[i+1] {
-				auxiliarInt := numbers[i]
+				helper := numbers[i]
 				numbers[i] = numbers[i+1]
-				numbers[i+1] = auxiliarInt
+				numbers[i+1] = helper
 			}
 		}
 	}
