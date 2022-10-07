@@ -5,7 +5,7 @@ package binary
 // It's order is 0(log(n)), but the searching array must
 // be ordered before searching.
 //
-func SearchWitchBinary(numbers []int, number int) (int, int) {
+func SearchWithBinary(numbers []int, number int) (int, int) {
 	left, right := 0, len(numbers)-1
 
 	for left != right {
