@@ -1,7 +1,9 @@
 package main
 
-import "algorithms_in_go/src/utils/menu"
+import "fmt"
 
 func main() {
-	menu.DisplayMenu()
+	fmt.Println("¡Welcome to my project!")
+	fmt.Println("Please take a look to the differente algorithms included in this repository.")
+	fmt.Println("You can check the functionality of each algorithm in the files with name ended in '_test.go'")
 }

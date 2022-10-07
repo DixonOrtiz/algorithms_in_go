@@ -6,8 +6,6 @@ package bubble
 // 	compared to others of the same kind.
 //
 func SorthWithBubble(numbers []int) []int {
-	printTitle(numbers)
-
 	// The numbers of steps in this algorithm
 	// is equal to the length of the array.
 	length := len(numbers)
