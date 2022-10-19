@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"algorithms_in_go/src/function/repeated_cities"
+	"fmt"
+)
 
 func main() {
-	fmt.Println("¡Welcome to my project!")
-	fmt.Println("Please take a look to the differente algorithms included in this repository.")
-	fmt.Println("You can check the functionality of each algorithm in the files with name ended in '_test.go'")
+	// ¡Welcome to my project!
+	// Please take a look to the differente algorithms included in this repository.
+	// You can check the functionality of each algorithm in the files with name ended in '_test.go'
+	fmt.Println(repeated_cities.GetRepeatedCities(6, repeated_cities.Cities))
 }
