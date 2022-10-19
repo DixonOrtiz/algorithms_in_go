@@ -17,7 +17,7 @@ func GetRepeatedCities(number int, cities []string) ([]City, error) {
 	}
 
 	if number > len(cities) {
-		return nil, errors.New("number of most repeated cities cannot me greatest than cities lenght")
+		return nil, errors.New("number of most repeated cities cannot be greatest than cities lenght")
 	}
 
 	for _, city := range cities {

@@ -1,7 +1,7 @@
 # Algorithms in Go :abacus:
 
 There are many clasification to describe an algorithm, this project
-implements clasification for **function** and for **strategy**.
+does not implement any clasification for them.
 
 The idea is to learn different algorithms through the time and implement them
 proggresively in this repository.
