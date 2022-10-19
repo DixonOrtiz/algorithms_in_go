@@ -23,7 +23,7 @@ func TestGetZeroRepeatedCity(t *testing.T) {
 func TestNumberIsGreatestThanCitiesLenght(t *testing.T) {
 	cities, err := GetRepeatedCities(2, []string{"santiago"})
 	assert.Nil(t, cities)
-	assert.EqualError(t, err, "number of most repeated cities cannot me greatest than cities lenght")
+	assert.EqualError(t, err, "number of most repeated cities cannot be greatest than cities lenght")
 }
 
 func TestGetMostRepeatedCity(t *testing.T) {

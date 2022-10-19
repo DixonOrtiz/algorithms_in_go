@@ -1,7 +1,7 @@
 package main
 
 import (
-	"algorithms_in_go/src/function/repeated_cities"
+	"algorithms_in_go/src/algorithms/repeated_cities"
 	"fmt"
 )
 
